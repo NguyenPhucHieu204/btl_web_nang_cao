@@ -4,11 +4,10 @@ Trong Laravel, để hiển thị ảnh tải lên từ thư mục storage, bạ
 
 ✨ Cách thực hiện
 Chạy các lệnh sau trong terminal:
-# Xóa thư mục storage cũ trong public (nếu có)
-Remove-Item -Recurse -Force public/storage  
-
-# Tạo lại symbolic link
-php artisan storage:link 
+(Xóa thư mục storage cũ trong public (nếu có))
+# Remove-Item -Recurse -Force public/storage  
+(Tạo lại symbolic link)
+# php artisan storage:link 
 
 Sau khi chạy lệnh trên, tất cả tệp trong storage/app/public sẽ có thể được truy cập qua public/storage.
 
